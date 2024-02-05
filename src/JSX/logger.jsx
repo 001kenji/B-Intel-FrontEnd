@@ -58,7 +58,7 @@ export default function Logger(props) {
         display : progSuccess ? 'flex' : 'none'
     }
     const progressError = {
-        display : progError ? 'flex' : 'flex'
+        display : progError ? 'flex' : 'none'
     }
     const progressLoad = {
         display : progLoad ? 'flex' : 'none'
