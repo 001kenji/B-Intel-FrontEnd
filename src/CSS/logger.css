@@ -2,6 +2,10 @@
     font-family: BigBold;
     src: url('../assets/poppin-font/Poppins-ExtraBold.ttf');
 }
+#notifier {
+    position: sticky;
+    top: 0;
+}
 @font-face {
     font-family: Smallitalic;
     src: url('../assets/poppin-font/Poppins-MediumItalic.ttf');

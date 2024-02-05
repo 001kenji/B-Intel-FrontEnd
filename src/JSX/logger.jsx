@@ -58,7 +58,7 @@ export default function Logger(props) {
         display : progSuccess ? 'flex' : 'none'
     }
     const progressError = {
-        display : progError ? 'flex' : 'none'
+        display : progError ? 'flex' : 'flex'
     }
     const progressLoad = {
         display : progLoad ? 'flex' : 'none'
@@ -251,21 +251,22 @@ export default function Logger(props) {
                     </div>
                     <div className='bg-slate-300 transition-all duration-1000 dark:bg-slate-800'>
                         
-                        <div style={progressError} className=" z-50 top-6 sticky" name='errorDiv' id="notifier">
-                            <img className="w-6 animate-ping p-1.5 sm:w-8 "  src={fail} alt="" />
-                        <p className="text-sm font-semibold text-red-500  sm:text-base" id="errorNot">{progErrormessage}</p>   
-                        </div>
-                        <div style={progressSuccess} className=" z-50 top-6 sticky" name='successDiv' id="notifier" > 
-                                <img className="w-6 sm:w-8 "  src={tick} alt="" />
-                                <p className="bg-black  text-sm sm:text-base rounded-sm top-1 text-green-500 font-bold p-2 mx-auto w-fit">{progSuccessmessage}</p>
-                        </div>
-                        <div style={progressLoad} className=" z-50 top-6 sticky" name='loadDiv' id="notifier">
-                            <img className="w-6 bg-blue-500 p-1 animate-spin sm:w-8 "  src={loadImg} alt="" />
-                            <p className="bg-black animate-pulse text-sm sm:text-base rounded-sm top-1 text-blue-500 font-bold p-2 mx-auto w-fit" >{progLoadmessage}</p>
-                        </div>
+                        
                         
                         <div className=' sm:min-h-[350px] transition-all duration-500 bg-slate-300 dark:bg-slate-800 h-[200px] px-2 flex flex-row w-full'>
                             <img className=' max-w-[700px] mx-auto sm:min-h-[350px] animate-pulse transition-all duration-500 p-2 w-full h-[100%]' src={`${theme == 'light' ? lightimage : Darkimage}`} alt="" />
+                        </div>
+                        <div style={progressError} className=" z-50 top-0 sticky" name='errorDiv' id="notifier">
+                            <img className="w-6 animate-ping p-1.5 sm:w-8 "  src={fail} alt="" />
+                        <p className="text-sm font-semibold text-red-500  sm:text-base" id="errorNot">{progErrormessage}</p>   
+                        </div>
+                        <div style={progressSuccess} className=" z-50 top-0 sticky" name='successDiv' id="notifier" > 
+                                <img className="w-6 sm:w-8 "  src={tick} alt="" />
+                                <p className="bg-black  text-sm sm:text-base rounded-sm top-1 text-green-500 font-bold p-2 mx-auto w-fit">{progSuccessmessage}</p>
+                        </div>
+                        <div style={progressLoad} className=" z-50 top-0 sticky" name='loadDiv' id="notifier">
+                            <img className="w-6 bg-blue-500 p-1 animate-spin sm:w-8 "  src={loadImg} alt="" />
+                            <p className="bg-black animate-pulse text-sm sm:text-base rounded-sm top-1 text-blue-500 font-bold p-2 mx-auto w-fit" >{progLoadmessage}</p>
                         </div>
                         <div>
                             <div className=' '>
