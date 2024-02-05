@@ -1,0 +1,341 @@
+@font-face {
+    font-family: BigBold;
+    src: url('../assets/poppin-font/Poppins-ExtraBold.ttf');
+}
+@font-face {
+    font-family: Smallitalic;
+    src: url('../assets/poppin-font/Poppins-MediumItalic.ttf');
+}
+@font-face {
+    font-family: normalPoppin;
+    src: url('../assets/poppin-font/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: smallPoppin;
+    src: url('../assets/poppin-font/Poppins-Medium.ttf');
+}
+
+@media only screen and (max-width: 320px) {
+    #universal-login-container {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    #top-bar-log h1 {
+        font-family: BigBold;
+        font-size: x-large;
+    }
+    #top-bar-log small {
+        font-family: Smallitalic;
+
+    }
+    #errorform {
+        padding: 0.2rem;
+        width: 80%;
+        border-radius: 5px;
+        color: red;
+        font-weight: normal;
+        text-align: center;
+        font-size: small;
+        font-family: normalPoppin;
+    }
+    #loginForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         min-height: 200px;
+         justify-content: space-around;
+         width: 90%;
+         margin: 1rem auto;
+
+    }
+    #loginForm input {
+        border-radius: 2px;
+        width: 80%;
+        min-height: 30px;
+        text-align: left;
+        outline: none;
+        background-color: transparent;
+        text-overflow: ellipsis;
+        padding: 0 5px;
+        transition: all;
+        transition-duration: 500ms;
+    }
+    #loginForm input::placeholder {
+        text-align: center;
+        font-weight: bold;
+    }
+    footer {
+        font-family: smallPoppin;
+        font-size: small;
+    }
+    #notifier p {
+        text-align: center;
+    }  
+    
+    #notifier {
+        display: flex;
+        gap: 5px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        font-size: large;
+        padding: 5px;
+        background-color: black;
+        width: fit-content ;
+        min-width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+       
+    
+    }
+    #notifier img {
+     
+        border-radius: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 321px) and (max-width:640px) {
+    #universal-login-container {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    #top-bar-log h1 {
+        font-family: BigBold;
+        font-size: x-large;
+    }
+    #top-bar-log small {
+        font-family: Smallitalic;
+
+    }
+    #errorform {
+        padding: 0.2rem;
+        width: 80%;
+        border-radius: 5px;
+        color: red;
+        font-weight: normal;
+        text-align: center;
+        font-size: small;
+        font-family: normalPoppin;
+    }
+    #loginForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         min-height: 200px;
+         justify-content: space-around;
+         width: 90%;
+         margin: 1rem auto;
+
+    }
+    #loginForm input {
+        border-radius: 2px;
+        width: 80%;
+        min-height: 30px;
+        text-align: left;
+        outline: none;
+        background-color: transparent;
+        text-overflow: ellipsis;
+        padding: 0 5px;
+        transition: all;
+        transition-duration: 500ms;
+    }
+    #loginForm input::placeholder {
+        text-align: center;
+        font-weight: bold;
+    }
+    footer {
+        font-family: smallPoppin;
+        font-size: small;
+    }
+    #notifier p {
+        text-align: center;
+    }  
+    
+    #notifier {
+        display: flex;
+        gap: 5px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        font-size: large;
+        padding: 5px;
+        background-color: black;
+        width: fit-content ;
+        min-width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+       
+    
+    }
+    #notifier img {
+     
+        border-radius: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 641px) and (max-width:768px) {
+    #universal-login-container {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    #top-bar-log h1 {
+        font-family: BigBold;
+        font-size: x-large;
+    }
+    #top-bar-log small {
+        font-family: Smallitalic;
+
+    }
+    #errorform {
+        padding: 0.2rem;
+        width: 80%;
+        border-radius: 5px;
+        color: red;
+        font-weight: normal;
+        text-align: center;
+        font-size: small;
+        font-family: normalPoppin;
+    }
+    #loginForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         min-height: 200px;
+         justify-content: space-around;
+         width: 90%;
+         margin: 1rem auto;
+
+    }
+    #loginForm input {
+        border-radius: 2px;
+        width: 80%;
+        min-height: 30px;
+        text-align: left;
+        outline: none;
+        background-color: transparent;
+        text-overflow: ellipsis;
+        padding: 0 5px;
+        transition: all;
+        transition-duration: 500ms;
+    }
+    #loginForm input::placeholder {
+        text-align: center;
+        font-weight: bold;
+    }
+    footer {
+        font-family: smallPoppin;
+        font-size: small;
+    }
+    #notifier p {
+        text-align: center;
+    }  
+    
+    #notifier {
+        display: flex;
+        gap: 5px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        font-size: large;
+        padding: 5px;
+        background-color: black;
+        width: fit-content ;
+        min-width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+       
+    
+    }
+    #notifier img {
+     
+        border-radius: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+    #universal-login-container {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    #top-bar-log h1 {
+        font-family: BigBold;
+        font-size: x-large;
+    }
+    #top-bar-log small {
+        font-family: Smallitalic;
+
+    }
+    #errorform {
+        padding: 0.2rem;
+        width: 80%;
+        border-radius: 5px;
+        color: red;
+        font-weight: normal;
+        text-align: center;
+        font-size: small;
+        font-family: normalPoppin;
+    }
+    #loginForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         min-height: 250px;
+         justify-content: space-around;
+         width: 90%;
+         margin: 1rem auto;
+        max-width: 500px;
+    }
+    #loginForm input {
+        border-radius: 2px;
+        width: 80%;
+        min-height: 40px;
+        text-align: left;
+        outline: none;
+
+        background-color: transparent;
+        text-overflow: ellipsis;
+        padding: 0 5px;
+        transition: all;
+        transition-duration: 500ms;
+    }
+    #loginForm input::placeholder {
+        text-align: center;
+        font-weight: bold;
+    }
+    footer {
+        font-family: smallPoppin;
+        font-size: small;
+    }
+    #notifier p {
+        text-align: center;
+    }  
+    
+    #notifier {
+        display: flex;
+        gap: 5px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        font-size: large;
+        padding: 5px;
+        background-color: black;
+        width: fit-content ;
+        min-width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+       
+    
+    }
+    #notifier img {
+     
+        border-radius: 100%;
+    }
+
+}
