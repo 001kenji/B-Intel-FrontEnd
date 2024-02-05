@@ -155,7 +155,7 @@ export default function Logger(props) {
                 }
             }
             
-            fetch('http://127.0.0.1:8000/validate/submit/',
+            fetch('https://b-intel-backend.vercel.app/validate/submit/',
                         {method: 'POST',
                         headers:{
                             'Content-Type':'application/json'
@@ -213,7 +213,7 @@ export default function Logger(props) {
             
             console.log('sending ....')
             ShowLoad('show')
-            fetch('http://127.0.0.1:8000/validate/submit/',
+            fetch('https://b-intel-backend.vercel.app/validate/submit/',
                         {method: 'PUT',
                         headers:{
                             'Content-Type':'application/json'
